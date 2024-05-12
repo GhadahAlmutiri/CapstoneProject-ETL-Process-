@@ -1,0 +1,12 @@
+[sf]
+account = 'KDJIBCR-WJ08906'
+warehouse = 'COMPUTE_WH'
+database = 'TPCDS'
+schema = 'RAW'
+role = 'ACCOUNTADMIN'
+file_format_name = 'comma_csv'
+stage_name = 'inventory_stg'
+table = 'inventory'
+
+[run]
+py_script="Lambda_CapstoneProject.py"  
